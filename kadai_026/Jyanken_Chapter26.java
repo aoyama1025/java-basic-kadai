@@ -30,7 +30,7 @@ public class Jyanken_Chapter26 {
 	//対戦相手のじゃんけんの手を乱数で選ぶメソッド
 	public String getRandom() {
 		String[] handsArray = { "r", "s", "p" };
-		String hands = handsArray[(int) Math.round(Math.random() * 2)];
+		String hands = handsArray[(int) Math.floor(Math.random() * 3)];
 		return hands;
 	}
 
